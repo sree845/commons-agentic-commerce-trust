@@ -8,7 +8,6 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB)](https://react.dev/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688)](https://fastapi.tiangolo.com/)
 [![PayPal](https://img.shields.io/badge/Payments-PayPal%20Sandbox-003087)](https://developer.paypal.com/)
-[![License](https://img.shields.io/badge/License-Add%20before%20publishing-lightgrey)](#license)
 
 ## Overview
 
