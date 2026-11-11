@@ -562,4 +562,5 @@ Commons brings these capabilities together in one integrated prototype.
 
 ## License
 
-No open-source license has been selected for this submission yet. Unless a license is added, the repository remains subject to the default copyright rules. Add a suitable license before inviting reuse or redistribution.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the complete license terms.
