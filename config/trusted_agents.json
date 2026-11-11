@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "agents": [
+    {
+      "agent_id": "agent_001",
+      "public_key": "KYV4IbT1eax4l5F/DIdEMCtuMd02F13Y1c8qFykLiMc=",
+      "status": "ACTIVE"
+    }
+  ]
+}

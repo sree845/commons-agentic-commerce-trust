@@ -1,0 +1,37 @@
+[
+    {
+        "round": 1,
+        "participating_merchants": 3,
+        "training_samples": 4869,
+        "coefficient_norm": 0.2174364596804548,
+        "global_update_norm": 0.2174364596804548
+    },
+    {
+        "round": 2,
+        "participating_merchants": 3,
+        "training_samples": 4869,
+        "coefficient_norm": 0.39384629282696637,
+        "global_update_norm": 0.17657139320418738
+    },
+    {
+        "round": 3,
+        "participating_merchants": 3,
+        "training_samples": 4869,
+        "coefficient_norm": 0.5420753187672979,
+        "global_update_norm": 0.14844126831249638
+    },
+    {
+        "round": 4,
+        "participating_merchants": 3,
+        "training_samples": 4869,
+        "coefficient_norm": 0.6700699333636874,
+        "global_update_norm": 0.12821395437065153
+    },
+    {
+        "round": 5,
+        "participating_merchants": 3,
+        "training_samples": 4869,
+        "coefficient_norm": 0.782900535406962,
+        "global_update_norm": 0.11306213807306298
+    }
+]

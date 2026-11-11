@@ -1,0 +1,110 @@
+{
+  "active_version": "fednet_round-demo-001",
+  "versions": {
+    "federated_v1": {
+      "path": "models\\federated_risk_model.joblib",
+      "status": "previous_version"
+    },
+    "immune_v2": {
+      "path": "models\\immune_candidate_model.joblib",
+      "status": "previous_version"
+    },
+    "fednet_round-demo-001": {
+      "path": "models/fednet_round-demo-001.joblib",
+      "status": "active",
+      "sha256": "9a4c2b1f046e25a880c72b5641b63ecb2365b014abf300d696be70861aae864a",
+      "approved_by": "commonfl",
+      "approved_at": 1794327057,
+      "federation_round": {
+        "expected": [
+          "merchant_A",
+          "merchant_B",
+          "merchant_C"
+        ],
+        "feature_schema": [
+          "amount",
+          "mandate_cap",
+          "category_allowed",
+          "mandate_age_days",
+          "orders_per_hour",
+          "address_changed",
+          "payment_retries",
+          "amount_vs_merchant_norm",
+          "shared_agent_flag_count"
+        ],
+        "base_model_version": "federated_v1",
+        "updates": {
+          "merchant_A": {
+            "sample_count": 2000,
+            "coefficients": [
+              [
+                0.25134215964854584,
+                -0.0689266220741983,
+                -0.23323637478310993,
+                -0.026190170678906687,
+                0.4475614679009382,
+                0.5758029060636687,
+                0.23230243396644515,
+                0.25133943798140634,
+                -0.01498350685945038
+              ]
+            ],
+            "intercept": [
+              -0.18449536260526023
+            ],
+            "nonce": "482c45c532f5257b7a776a926244ee71",
+            "received_at": 1794324200
+          },
+          "merchant_B": {
+            "sample_count": 2000,
+            "coefficients": [
+              [
+                0.2506193920603828,
+                -0.06765342428759094,
+                -0.2318233958913902,
+                -0.02299550243725894,
+                0.5392151182593948,
+                0.47890309861732844,
+                0.2426113296144507,
+                0.25061657167878687,
+                -0.011096229138244313
+              ]
+            ],
+            "intercept": [
+              -0.17641641627391172
+            ],
+            "nonce": "6cf87446f0ff0035e01bfa3f8a19dbc1",
+            "received_at": 1794324474
+          },
+          "merchant_C": {
+            "sample_count": 2000,
+            "coefficients": [
+              [
+                0.301710037451072,
+                -0.08790585535346844,
+                -0.23328409501801617,
+                -0.028705768270398845,
+                0.44072573158527295,
+                0.4781376189076595,
+                0.2342091495752051,
+                0.30170750907673693,
+                -0.011480810571403648
+              ]
+            ],
+            "intercept": [
+              -0.1590359043560861
+            ],
+            "nonce": "8b7c93512dd0667fd69b84365652f68f",
+            "received_at": 1794324501
+          }
+        },
+        "status": "aggregated",
+        "created_at": 1794323528,
+        "model_version": "fednet_round-demo-001",
+        "model_path": "models\\fednet_round-demo-001.joblib",
+        "total_samples": 6000,
+        "completed_at": 1794324503
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "evaluation_records": 300,
+    "legitimate_records": 150,
+    "attack_records": 150,
+    "attack_families": [
+        "emerging_retry_burst",
+        "emerging_mandate_drift",
+        "emerging_coordinated_orders"
+    ],
+    "accuracy": 0.9933333333333333,
+    "precision": 0.9868421052631579,
+    "recall": 1.0,
+    "f1_score": 0.9933774834437086,
+    "false_positive_rate": 0.013333333333333334,
+    "true_negatives": 148,
+    "false_positives": 2,
+    "false_negatives": 0,
+    "true_positives": 150
+}

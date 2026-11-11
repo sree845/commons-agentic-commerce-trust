@@ -1,0 +1,107 @@
+{
+    "experiment": "Commons immune learning adaptation",
+    "random_state": 42,
+    "adaptation_training_records": 446,
+    "validation_records": 154,
+    "final_holdout_records": 300,
+    "agent_group_separation": true,
+    "validation": {
+        "baseline": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "fpr": 0.0,
+            "confusion_matrix": {
+                "tn": 77,
+                "fp": 0,
+                "fn": 0,
+                "tp": 77
+            },
+            "samples": 154
+        },
+        "candidate": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "fpr": 0.0,
+            "confusion_matrix": {
+                "tn": 77,
+                "fp": 0,
+                "fn": 0,
+                "tp": 77
+            },
+            "samples": 154
+        },
+        "fpr_change": 0.0,
+        "recall_change": 0.0,
+        "safety_gate_passed": true
+    },
+    "final_holdout": {
+        "baseline_federated_model": {
+            "accuracy": 0.9933,
+            "precision": 0.9868,
+            "recall": 1.0,
+            "f1": 0.9934,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "fpr": 0.0133,
+            "confusion_matrix": {
+                "tn": 148,
+                "fp": 2,
+                "fn": 0,
+                "tp": 150
+            },
+            "samples": 300
+        },
+        "adapted_candidate_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "fpr": 0.0,
+            "confusion_matrix": {
+                "tn": 150,
+                "fp": 0,
+                "fn": 0,
+                "tp": 150
+            },
+            "samples": 300
+        },
+        "selected_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0,
+            "fpr": 0.0,
+            "confusion_matrix": {
+                "tn": 150,
+                "fp": 0,
+                "fn": 0,
+                "tp": 150
+            },
+            "samples": 300
+        }
+    },
+    "deployment_decision": {
+        "accepted": true,
+        "selected_version": "immune_v2",
+        "rollback_action": "Candidate passed validation safety gate"
+    },
+    "limitations": [
+        "Emerging attacks are synthetically generated.",
+        "Adaptation records originate from the existing training population.",
+        "The final holdout is reused for before-and-after comparison.",
+        "This is a simulated single-application adaptation experiment.",
+        "The safety gate is a validation policy, not proof of production safety."
+    ]
+}

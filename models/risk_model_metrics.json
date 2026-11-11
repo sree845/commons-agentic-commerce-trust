@@ -1,0 +1,17 @@
+{
+    "training_records": 4869,
+    "testing_records": 1131,
+    "training_agents": 400,
+    "testing_agents": 100,
+    "accuracy": 0.9672855879752431,
+    "precision": 0.8865546218487395,
+    "recall": 0.9547511312217195,
+    "f1_score": 0.9193899782135077,
+    "roc_auc": 0.9948287007110537,
+    "pr_auc": 0.986150114981548,
+    "false_positive_rate": 0.02967032967032967,
+    "true_negatives": 883,
+    "false_positives": 27,
+    "false_negatives": 10,
+    "true_positives": 211
+}

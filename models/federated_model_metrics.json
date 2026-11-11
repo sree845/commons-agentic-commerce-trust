@@ -1,0 +1,18 @@
+{
+    "accuracy": 0.9796640141467727,
+    "precision": 0.9541284403669725,
+    "recall": 0.9411764705882353,
+    "f1_score": 0.9476082004555809,
+    "roc_auc": 0.9888120928844911,
+    "pr_auc": 0.9780693381847599,
+    "false_positive_rate": 0.01098901098901099,
+    "true_negatives": 900,
+    "false_positives": 10,
+    "false_negatives": 13,
+    "true_positives": 208,
+    "training_records": 4869,
+    "testing_records": 1131,
+    "participating_merchants": 3,
+    "federated_rounds": 5,
+    "local_epochs_per_round": 5
+}

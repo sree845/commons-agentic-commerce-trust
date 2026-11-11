@@ -1,0 +1,45 @@
+/* Commons UI refinements: compact order table and responsive panels */
+.order-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: stretch;
+}
+.order-layout > .panel {
+  min-width: 0;
+}
+.commons-grid {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #e7ece7;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.commons-grid .ag-root-wrapper {
+  border: 0;
+  border-radius: 9px;
+}
+.commons-grid .ag-header {
+  font-weight: 700;
+}
+.commons-grid .ag-row {
+  cursor: pointer;
+}
+.commons-grid .ag-cell {
+  display: flex;
+  align-items: center;
+}
+.commons-grid .ag-cell-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grid-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #68756b;
+  font-size: 14px;
+}
+@media (max-width: 1050px) {
+  .order-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
